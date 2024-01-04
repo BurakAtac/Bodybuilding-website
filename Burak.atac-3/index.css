@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto+Condensed&display=swap');
+.fot{
+    
+    width: 100%;
+    height: 200px;
+    background-color: #BDBDBD;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+span{
+    font-size: 35px;
+	margin-left: 55px;
+}
+
+.logo{
+    width: 350px;
+    height: 60px;
+    padding-left: 2rem;
+    padding-top: 20px;
+}
+.navbar{
+    width: auto;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.container{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    
+}
+.container2{
+    width: 100%;
+    height: 450px;
+    background-color: #212121;
+    
+    
+    
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+.slider-icerik{
+    position: absolute;
+    width: 400%;
+    left: 0;
+    
+    animation: slide 15s infinite;
+    
+}
+
+.slider-icerik:hover{
+animation-play-state: paused;
+}
+
+.slider-eşya{
+    width: 10%;
+    float: left;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateX(-500px);
+    }
+    20%{
+        transform: translateX(-500px);
+    }
+    30%{
+        transform: translateX(-1000px);
+    }
+    40%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(-1500px);
+    }
+    60%{
+        transform: translateX(-1500px);
+    }
+    70%{
+        transform: translateX(-2000px);
+    }
+    80%{
+        transform: translateX(-2000px);
+    }
+    90%{
+        transform: translateX(0px);
+    }
+   
+    
+}
+.navbar ul{
+    display: flex;
+    /*justify-content: space-between;*/
+    list-style-type:none;
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    margin: 2rem;
+    color: white;
+    font-size: 20px;
+    
+    margin-top: 2rem;
+    padding: 5px;
+    
+    
+}
+body{
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar ul a:hover{
+    border: solid 2px;
+	padding: 20px;
+	transition: 0.8s;
+}
+.solkutu{
+    height: 360px;
+    width: 360px;
+    background-color: red;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-left: 40px;  
+}
+.sağkutu{
+    height: 360px;
+    width: 360px;
+    background-color: red;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 1450px;  
+}
+#jaybaş{
+    color: aliceblue;
+    padding-left: 900px;
+}
+#jayyazı{
+    color: white;
+     display: flex;
+    justify-content:center;
+    text-align: center; 
+     padding-top: 80px; 
+     padding-right: 100px;
+    padding-left: 450px; 
+    font-size: large;
+    
+   
+}
+#ronieyazı{
+    color: white;
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    padding-right: 500px;
+    padding-top: 75px;
+}
+.jaydeneme{
+
+    justify-content: center;
+}
+#ruhlyazı{
+    padding-left: 500px;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}

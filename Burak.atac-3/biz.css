@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto+Condensed&display=swap');
+body{
+    background-image: url(./foto/a31de3187c7fa939a863f4b8593ef1de.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#ben{
+    background-color: 		#a9a9a9;
+    height: 730px;
+    width: 550px;
+    margin: 300px;
+    border-radius: 10px;
+}
